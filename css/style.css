@@ -1,0 +1,36 @@
+body {
+    background-image: url("destiny_2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;   
+}
+
+#calculator {
+    margin-left: 610px;
+    margin-top: 80px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: 380px;
+    margin-top: 130px;
+}
+
+th {
+    background-color: #888888;
+}
+td, th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+tr:nth-child(odd) {
+    background-color: #cccccc;
+}
